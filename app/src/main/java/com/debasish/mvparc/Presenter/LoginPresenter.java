@@ -1,5 +1,9 @@
 package com.debasish.mvparc.Presenter;
 
+import android.util.Log;
+import android.widget.Toast;
+
+import com.debasish.mvparc.MainActivity;
 import com.debasish.mvparc.Model.User;
 import com.debasish.mvparc.View.ILoginView;
 
@@ -26,6 +30,11 @@ public class LoginPresenter implements ILoginPresenter {
             loginView.onLoginValidation("Password length should be equal to more than 6");
         else
             loginView.onLoginResult("Login was Success");
+            Log.d("Test Data", "Test");
+            Log.d("Test Data", "New Branch Created");
+
+            Log.d("New Testing Branch", "Test");
+
     }
 
     @Override
