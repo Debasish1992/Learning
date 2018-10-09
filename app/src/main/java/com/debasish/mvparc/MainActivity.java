@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements
             }
         });
 
-
+        Toast.makeText(this, "Newly Added.", Toast.LENGTH_SHORT).show();
     }
 
     @Override
