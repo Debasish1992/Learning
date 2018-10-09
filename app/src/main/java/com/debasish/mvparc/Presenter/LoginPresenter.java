@@ -25,7 +25,7 @@ public class LoginPresenter implements ILoginPresenter {
         else if (loginCode == 4)
             loginView.onLoginValidation("Password length should be equal to more than 6");
         else
-            loginView.onLoginResult("Login Success");
+            loginView.onLoginResult("Login was Success");
     }
 
     @Override
