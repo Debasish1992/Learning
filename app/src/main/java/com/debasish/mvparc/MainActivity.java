@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity implements
 
         Toast.makeText(this, "Test Message is added.", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "Test Message added later", Toast.LENGTH_SHORT).show();
+
+
+        Toast.makeText(this, "Kuch bhi.", Toast.LENGTH_SHORT).show();
     }
 
     @Override
