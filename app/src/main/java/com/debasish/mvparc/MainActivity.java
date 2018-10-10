@@ -53,6 +53,8 @@ public class MainActivity extends AppCompatActivity implements
     @Override
     public void onLoginResult(String message) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+
+        Toast.makeText(this, "Log toh Kuch bhi kehete hai.", Toast.LENGTH_SHORT).show();
     }
 
     @Override
